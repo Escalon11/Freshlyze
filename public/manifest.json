@@ -1,0 +1,21 @@
+{
+  "name": "Freshlyze",
+  "short_name": "Freshlyze",
+  "description": "Deteksi kesegaran buah dan sayuran dengan AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9F7F2",
+  "theme_color": "#F9F7F2",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

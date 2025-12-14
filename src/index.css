@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Background agar tidak hitam saat loading */
+body {
+  background-color: #F9F7F2; 
+  color: #1A3C28;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Custom Scrollbar agar lebih estetik */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F9F7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4D7C8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F49D1A;
+}
