@@ -43,7 +43,7 @@ export const analyzeImageFreshness = async (base64Image: string, mimeType: strin
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-2.5-flash-lite",
       config: {
         systemInstruction: SYSTEM_INSTRUCTION,
         responseMimeType: "application/json",
